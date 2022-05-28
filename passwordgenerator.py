@@ -56,9 +56,11 @@ elif pass_type == 'numbers':
         print(str(slash) + ":  " + numpass_make(length))
         print(" ")
         count += 1
+        slash += 1
 
 elif pass_type == "letters":
     while pass_amount > count:
         print(str(slash) + ":  " + letterpass_make(length))
         print(" ")
         count += 1
+        slash += 1
